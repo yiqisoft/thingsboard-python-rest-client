@@ -683,7 +683,7 @@ class OtaPackageControllerApi(object):
             (data) = self.save_ota_package_data_using_post_with_http_info(ota_package_id, **kwargs)  # noqa: E501
             return data
 
-    def save_ota_package_data_using_post_with_http_info(self, checksum_algorithm, ota_package_id, **kwargs):  # noqa: E501
+    def save_ota_package_data_using_post_with_http_info(self, ota_package_id, **kwargs):  # noqa: E501
         """Save OTA Package data (saveOtaPackageData)  # noqa: E501
 
         Update the OTA Package. Adds the date to the existing OTA Package Info  Available for users with 'TENANT_ADMIN' authority.  # noqa: E501
